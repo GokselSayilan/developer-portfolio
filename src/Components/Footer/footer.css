@@ -1,0 +1,386 @@
+@media (1000px < width) {
+    .footer {
+        width: calc(100% + 330px);
+        height: 675px;
+        position: relative;
+        left: -165px;
+        padding: 90px 165px;
+    }
+
+    .footerTop {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 200px;
+    }
+
+    .footerContact {
+        flex-basis: calc(50% - 100px);
+        height: 330px;
+        position: relative;
+    }
+
+    .footerFormShape {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: translate(-75%, 50%);
+    }
+
+    .footerContactTitle {
+        margin-bottom: 35px;
+    }
+
+    .footerForm {
+        flex-basis: calc(50% - 100px);
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .formName,
+    .formEmail,
+    .formMessage {
+        border-bottom: 1px solid white;
+        padding-bottom: 20px;
+        padding-left: 25px;
+        position: relative;
+    }
+
+    .errorStyle {
+        border-bottom: 1px solid #FF6F5B;
+    }
+
+    .errorIcon {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        color: #FF6F5B;
+        border: 1px solid #FF6F5B;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        font-family: var(--primaryFont);
+        line-height: 18px;
+    }
+
+    .errorMessage {
+        color: #FF6F5B;
+        font-family: var(--primaryFont);
+        font-size: 12px;
+        position: absolute;
+        right: 0;
+        bottom: -25px;
+    }
+
+    .formMessage {
+        height: 100px;
+    }
+
+    .formNameInput,
+    .formEmailInput,
+    .formMessageInput {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        font-family: var(--primaryFont);
+        width: 100%;
+    }
+
+    .formMessageInput {
+        overflow: hidden;
+        resize: none;
+        height: 100px;
+
+    }
+
+    .footerSep {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .sendMessageWrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .footerLinks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footerLogo {
+        font-size: 32px;
+        font-family: var(--primaryFont);
+        letter-spacing: -0.44px;
+    }
+
+    .footerLinksSocial {
+        display: flex;
+        gap: 32px;
+    }
+}
+
+@media (500px < width <= 1000px) {
+    .footer {
+        width: calc(100% + 60px);
+        height: 810px;
+        position: relative;
+        left: -30px;
+        padding: 60px 30px;
+    }
+
+    .footerTop {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .footerContact {
+        width: 450px;
+        height: 180px;
+        text-align: center;
+    }
+
+    .footerFormShape {
+        position: absolute;
+        bottom: 175px;
+        left: 0;
+        transform: translate(-75%, 50%);
+    }
+
+    .footerContactTitle {
+        margin-bottom: 20px;
+    }
+
+    .footerForm {
+        width: 450px;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .formName,
+    .formEmail,
+    .formMessage {
+        border-bottom: 1px solid white;
+        padding-bottom: 20px;
+        padding-left: 25px;
+        position: relative;
+    }
+
+    .errorStyle {
+        border-bottom: 1px solid #FF6F5B;
+    }
+
+    .errorIcon {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        color: #FF6F5B;
+        border: 1px solid #FF6F5B;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        font-family: var(--primaryFont);
+        line-height: 18px;
+    }
+
+    .errorMessage {
+        color: #FF6F5B;
+        font-family: var(--primaryFont);
+        font-size: 12px;
+        position: absolute;
+        right: 0;
+        bottom: -25px;
+    }
+
+    .formMessage {
+        height: 100px;
+    }
+
+    .formNameInput,
+    .formEmailInput,
+    .formMessageInput {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        font-family: var(--primaryFont);
+        width: 100%;
+    }
+
+    .formMessageInput {
+        overflow: hidden;
+        resize: none;
+        height: 100px;
+
+    }
+
+    .footerSep {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    .sendMessageWrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .footerLinks {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footerLogo {
+        font-size: 32px;
+        font-family: var(--primaryFont);
+        letter-spacing: -0.44px;
+    }
+
+    .footerLinksSocial {
+        display: flex;
+        gap: 32px;
+    }
+}
+
+@media (width <= 500px) {
+    .footer {
+        width: calc(100% + 30px);
+        height: 890px;
+        position: relative;
+        left: -15px;
+        padding: 60px 15px;
+    }
+
+    .footerTop {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .footerContact {
+        width: 100%;
+        height: 180px;
+        text-align: center;
+    }
+
+    .footerFormShape {
+        position: absolute;
+        bottom: 175px;
+        left: 0;
+        transform: translate(-75%,0%);
+    }
+
+    .footerContactTitle {
+        margin-bottom: 20px;
+    }
+
+    .footerForm {
+        width: 100%;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .formName,
+    .formEmail,
+    .formMessage {
+        border-bottom: 1px solid white;
+        padding-bottom: 20px;
+        padding-left: 25px;
+        position: relative;
+    }
+
+    .errorStyle {
+        border-bottom: 1px solid #FF6F5B;
+    }
+
+    .errorIcon {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        color: #FF6F5B;
+        border: 1px solid #FF6F5B;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        font-family: var(--primaryFont);
+        line-height: 18px;
+    }
+
+    .errorMessage {
+        color: #FF6F5B;
+        font-family: var(--primaryFont);
+        font-size: 12px;
+        position: absolute;
+        right: 0;
+        bottom: -25px;
+    }
+
+    .formMessage {
+        height: 100px;
+    }
+
+    .formNameInput,
+    .formEmailInput,
+    .formMessageInput {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        font-family: var(--primaryFont);
+        width: 100%;
+    }
+
+    .formMessageInput {
+        overflow: hidden;
+        resize: none;
+        height: 100px;
+
+    }
+
+    .footerSep {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    .sendMessageWrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .footerLinks {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footerLogo {
+        font-size: 32px;
+        font-family: var(--primaryFont);
+        letter-spacing: -0.44px;
+    }
+
+    .footerLinksSocial {
+        display: flex;
+        gap: 32px;
+    }
+}

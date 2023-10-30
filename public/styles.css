@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    --primaryFont: 'Space Grotesk', sans-serif;
+    --green: #4EE1A0;
+    --black: #151515;
+    --lightBlack: #242424;
+    --gray: #d9d9d9;
+    --white: #FFFFFF;
+}
+
+/* font */
+.headingXL,
+.headingL,
+.headingM,
+.bodyText {
+    font-family: var(--primaryFont);
+}
+
+/* font-style */
+
+@media (1000px <= width) {
+
+    .headingXL {
+        font-size: 85px;
+        letter-spacing: -2.5px;
+    }
+    
+    .headingL {
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -1.5px;
+    }
+    
+    .headingM {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .bodyText {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media (500px <= width  <= 1000px) {
+    .headingXL {
+        font-size: 72px;
+        letter-spacing: -2px;
+        line-height: 72px;
+    }
+    
+    .headingL {
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -1.5px;
+    }
+    
+    .headingM {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .bodyText {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media (width <= 500px) {
+    .headingXL {
+        font-size: 40px;
+        letter-spacing: -2px;
+    }
+    
+    .headingL {
+        font-size: 32px;
+        line-height: 56px;
+        letter-spacing: -1.5px;
+    }
+    
+    .headingM {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .bodyText {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+
+
+/* font-weight */
+
+.boldWeight {
+    font-weight: 700;
+}
+
+.mediumWeight {
+    font-weight: 500;
+}
+
+/* text-color */
+
+.greenText {
+    color: var(--green);
+}
+
+.blackText {
+    color: var(--black);
+}
+
+.lightBlackText {
+    color: var(--lightBlack);
+}
+
+.grayText {
+    color: var(--gray);
+}
+
+.whiteText {
+    color: var(--white);
+}
+
+/* bg-color */
+
+.greenBg {
+    background-color: var(--green);
+}
+
+.blackBg {
+    background-color: var(--black);
+
+}
+
+.lightBlackBg {
+    background-color: var(--lightBlack);
+
+}
+
+.grayBg {
+    background-color: var(--gray);
+
+}
+
+.whiteBg {
+    background-color: var(--white);
+
+}

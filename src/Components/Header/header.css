@@ -1,0 +1,178 @@
+@media (1000px < width) {
+    .header {
+        margin-top: 130px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerContent {
+        width: 700px;
+        z-index: 10;
+        position: relative;
+    }
+
+    .headerContentShape {
+        position: absolute;
+        left: 0;
+        top: -60px;
+        transform: translateX(-50%);
+    }
+
+    .headerTitleUnderlineText::before {
+        content: " ";
+        /* Boşluk ekleyin */
+        display: inline-block;
+        /* Satır içi blok olarak görüntüleyin */
+        width: 10px;
+        /* Boşluk genişliği */
+    }
+
+    .headerTitleUnderlineText {
+        text-decoration: underline;
+        text-underline-offset: 17px;
+        text-decoration-thickness: 6px;
+        text-decoration-color: var(--green);
+        display: inline-block;
+        margin-left: 5px;
+    }
+
+    .headerContentDesc {
+        width: 450px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .headerPhotoWrapper {
+        position: absolute;
+        top: 0;
+        right: 165px;
+    }
+
+    .headerPhoto {
+        width: 450px;
+    }
+
+    .headerPhotoShape {
+        position: absolute;
+        left: 0;
+        bottom: 70px;
+        transform: translateX(-50%);
+    }
+}
+
+@media (500px < width <=1000px) {
+    .header {
+        margin-top: 90px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerContent {
+        width: 440px;
+        z-index: 10;
+        position: relative;
+    }
+
+    .headerContentShape {
+        position: absolute;
+        left: 0;
+        top: -60px;
+        transform: translateX(-50%);
+    }
+
+    .headerTitleUnderlineText {
+        text-decoration: underline;
+        text-underline-offset: 17px;
+        text-decoration-thickness: 6px;
+        text-decoration-color: var(--green);
+        display: inline-block;
+        margin-left: 5px;
+    }
+
+    .headerContentDesc {
+        width: 450px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .headerPhotoWrapper {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .headerPhoto {
+        width: 322;
+        height: 600px;
+    }
+
+    .headerPhotoShape {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        transform: translateX(50%);
+    }
+}
+
+@media (width <=500px) {
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .headerContent {
+        width: 340px;
+        z-index: 10;
+        position: absolute;
+        text-align: center;
+        top: 420px;
+    }
+
+    .headerTitleUnderlineText::before {
+        content: " ";
+        /* Boşluk ekleyin */
+        display: inline-block;
+        /* Satır içi blok olarak görüntüleyin */
+        width: 10px;
+        /* Boşluk genişliği */
+    }
+
+    .headerContentShape {
+        display: none;
+    }
+
+    .headerTitleUnderlineText {
+        text-decoration: underline;
+        text-underline-offset: 17px;
+        text-decoration-thickness: 6px;
+        text-decoration-color: var(--green);
+        display: inline-block;
+        margin-left: 5px;
+    }
+
+    .headerContentDesc {
+        width: 100%;
+        margin-top: 35px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .headerPhotoWrapper {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+    }
+
+    .headerPhoto {
+        width: 190px;
+        height: 390px;
+    }
+
+    .headerPhotoShape {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        transform: translateX(125%);
+    }
+}

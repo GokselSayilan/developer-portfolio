@@ -1,0 +1,44 @@
+@media (1000px < width) {
+    .portfolio {
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
+        overflow: hidden;
+    }
+    
+    
+    .portfolioWrapper {
+        padding: 0 165px;
+    }
+}
+
+@media (500px < width <= 1000px) {
+    .portfolio {
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
+        overflow: hidden;
+    }
+    
+    
+    .portfolioWrapper {
+        padding: 0 30px;
+    }
+}
+
+@media (width <= 500px) {
+    .portfolio {
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
+        overflow: hidden;
+    }
+    
+    
+    .portfolioWrapper {
+        padding: 0 15px;
+    }
+}
+
+
+

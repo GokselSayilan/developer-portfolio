@@ -1,0 +1,55 @@
+[
+  {
+    "title": "DESIGN PORTFOLIO",
+    "photo": {
+      "large": "assets/thumbnail-project-1-large.webp",
+      "small": "assets/thumbnail-project-1-small.webp"
+    },
+    "tags": ["HTML", "CSS"]
+  },
+
+  {
+    "title": "E-LEARNING LANDING PAGE",
+    "photo": {
+      "large": "assets/thumbnail-project-2-large.webp",
+      "small": "assets/thumbnail-project-2-small.webp"
+    },
+    "tags": ["HTML", "CSS"]
+  },
+
+  {
+    "title": "TODO WEB APP",
+    "photo": {
+      "large": "assets/thumbnail-project-3-large.webp",
+      "small": "assets/thumbnail-project-3-small.webp"
+    },
+    "tags": ["HTML", "CSS", "JAVASCRIPT"]
+  },
+
+  {
+    "title": "ENTERTAINMENT WEB APP",
+    "photo": {
+      "large": "assets/thumbnail-project-4-large.webp",
+      "small": "assets/thumbnail-project-4-small.webp"
+    },
+    "tags": ["HTML", "CSS", "JAVASCRIPT"]
+  },
+
+  {
+    "title": "MEMORY GAME",
+    "photo": {
+      "large": "assets/thumbnail-project-5-large.webp",
+      "small": "assets/thumbnail-project-5-small.webp"
+    },
+    "tags": ["HTML", "CSS", "JAVASCRIPT"]
+  },
+
+  {
+    "title": "ART GALLERY SHOWCASE",
+    "photo": {
+      "large": "assets/thumbnail-project-6-large.webp",
+      "small": "assets/thumbnail-project-6-small.webp"
+    },
+    "tags": ["HTML", "CSS", "JAVASCRIPT"]
+  }
+]
